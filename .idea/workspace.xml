@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6db2b50-31ac-444a-8350-862173a0ab0b" name="Default Changelist" comment="" />
+    <list default="true" id="c6db2b50-31ac-444a-8350-862173a0ab0b" name="Default Changelist" comment="Passing test for FizzBuzz, Fizz and Buzz">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fizzbuzz.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +14,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jK1SLEMv6BCEsfLABN9vGMpObx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,8 +30,60 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Jest.Fizzbuzz">
+    <configuration name="Fizzbuzz" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/test/fizzbuzz.test.ts" />
+      <test-names>
+        <test-name value="Fizzbuzz" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Fizzbuzz.returns 1 for 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/fizzbuzz.test.ts" />
+      <test-names>
+        <test-name value="Fizzbuzz" />
+        <test-name value="returns 1 for 1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Fizzbuzz.returns an array of [1, 2] for 2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/fizzbuzz.test.ts" />
+      <test-names>
+        <test-name value="Fizzbuzz" />
+        <test-name value="returns an array of [1, 2] for 2" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Fizzbuzz" />
+        <item itemvalue="Jest.Fizzbuzz.returns an array of [1, 2] for 2" />
+        <item itemvalue="Jest.Fizzbuzz.returns 1 for 1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,11 +93,157 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603537968268</updated>
-      <workItem from="1603537969598" duration="1326000" />
+      <workItem from="1603537969598" duration="4776000" />
     </task>
+    <task id="LOCAL-00001" summary="Add &quot;1&quot; for 1">
+      <created>1603540238293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603540238293</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Correct return to use toString() on number input">
+      <created>1603540329867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603540329867</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add test for array of 2 numbers">
+      <created>1603540542653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603540542653</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add passing parameterized test">
+      <created>1603540969730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603540969730</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add for loop for Fizz">
+      <created>1603541735468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603541735468</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Passing test for 4">
+      <created>1603541775648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603541775648</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Passing test for FizzBuzz, Fizz and Buzz">
+      <created>1603542088293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603542088293</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add &quot;1&quot; for 1" />
+    <MESSAGE value="Correct return to use toString() on number input" />
+    <MESSAGE value="Add test for array of 2 numbers" />
+    <MESSAGE value="Add passing parameterized test" />
+    <MESSAGE value="Add for loop for Fizz" />
+    <MESSAGE value="Passing test for 4" />
+    <MESSAGE value="Passing test for FizzBuzz, Fizz and Buzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passing test for FizzBuzz, Fizz and Buzz" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="483" y="160" key="#xdebugger.evaluate" timestamp="1603542788348">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1603542788348" />
+    <state x="593" y="354" width="254" height="264" key="Github.ShareDialog" timestamp="1603539503189">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="593" y="354" width="254" height="264" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1603539503189" />
+    <state x="526" y="155" key="Github.UntrackedFilesDialog" timestamp="1603539509403">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="526" y="155" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603539509403" />
+    <state width="1419" height="432" key="GridCell.Tab.0.bottom" timestamp="1603543202031">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="432" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603543202031" />
+    <state width="1419" height="432" key="GridCell.Tab.0.center" timestamp="1603543202030">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="432" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603543202030" />
+    <state width="1419" height="432" key="GridCell.Tab.0.left" timestamp="1603543202029">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="432" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603543202029" />
+    <state width="1419" height="432" key="GridCell.Tab.0.right" timestamp="1603543202030">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="432" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603543202030" />
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1603542805130">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603542805130" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center" timestamp="1603542805130">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603542805130" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left" timestamp="1603542805129">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603542805129" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right" timestamp="1603542805130">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603542805130" />
+    <state width="1419" height="304" key="GridCell.Tab.2.bottom" timestamp="1603542805132">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603542805132" />
+    <state width="1419" height="304" key="GridCell.Tab.2.center" timestamp="1603542805131">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1603542805131" />
+    <state width="1419" height="304" key="GridCell.Tab.2.left" timestamp="1603542805131">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1603542805131" />
+    <state width="1419" height="304" key="GridCell.Tab.2.right" timestamp="1603542805131">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1603542805131" />
+    <state width="1419" height="304" key="GridCell.Tab.3.bottom" timestamp="1603542805133">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603542805133" />
+    <state width="1419" height="304" key="GridCell.Tab.3.center" timestamp="1603542805132">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1603542805132" />
+    <state width="1419" height="304" key="GridCell.Tab.3.left" timestamp="1603542805132">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1603542805132" />
+    <state width="1419" height="304" key="GridCell.Tab.3.right" timestamp="1603542805132">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1603542805132" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603542090071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603542090071" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603540053543">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603540053543" />
   </component>
 </project>

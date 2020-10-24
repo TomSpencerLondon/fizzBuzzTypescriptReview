@@ -3,17 +3,16 @@ export const fizzbuzz = (number: number): string[] => {
         return [number.toString()];
     }
 
-    let array = [];
-    for (let i = 1; i <= number; i++){
-        if (i % 3 === 0 && i % 5 === 0){
+    let array = fizzbuzz(number - 1);
+
+    if (number % 3 === 0 && number % 5 === 0){
             array.push("FizzBuzz");
-        }else if (i % 5 == 0) {
+        }else if (number % 5 == 0) {
             array.push("Buzz");
-        }else if (i % 3 === 0){
+        }else if (number % 3 === 0){
             array.push("Fizz");
         }else {
-            array.push(i.toString());
-        }
+            array.push(number.toString());
     }
 
     return array;
