@@ -1,13 +1,13 @@
 import { fizzbuzz } from "../src/fizzbuzz";
+const each = require("jest-each").default;
 
 
 describe("Fizzbuzz", () => {
-
-    it("returns 1 for 1", () => {
-        expect(fizzbuzz(1)).toEqual(["1"]);
-    })
-
-    it("returns an array of [1, 2] for 2", () => {
-        expect(fizzbuzz(2)).toEqual(["1", "2"]);
-    })
+    each([
+            [1, ["1"]],
+            [2, ["1", "2"]],
+    ]).test(
+        "returns %s for %s", (input, expected) => {
+            expect(fizzbuzz(input)).toEqual(expected);
+        })
 })
