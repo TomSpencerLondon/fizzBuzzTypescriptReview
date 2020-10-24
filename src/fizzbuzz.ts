@@ -3,13 +3,20 @@ export const fizzbuzz = (number: number): string[] => {
         return [number.toString()];
     }
 
+    function isDivisibleByThreeAndFive(): boolean {
+        return number % 3 === 0 && number % 5 === 0;
+    }
+    function isDivisibleBy(input: number): boolean {
+        return number % input == 0;
+    }
+
     let array = fizzbuzz(number - 1);
 
-    if (number % 3 === 0 && number % 5 === 0){
+    if (isDivisibleByThreeAndFive()){
             array.push("FizzBuzz");
-        }else if (number % 5 == 0) {
+        }else if (isDivisibleBy(5)) {
             array.push("Buzz");
-        }else if (number % 3 === 0){
+        }else if (isDivisibleBy(3)){
             array.push("Fizz");
         }else {
             array.push(number.toString());

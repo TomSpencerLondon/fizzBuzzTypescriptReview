@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6db2b50-31ac-444a-8350-862173a0ab0b" name="Default Changelist" comment="Passing test for FizzBuzz, Fizz and Buzz">
+    <list default="true" id="c6db2b50-31ac-444a-8350-862173a0ab0b" name="Default Changelist" comment="Add recursive function for fizzbuzz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fizzbuzz.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz.ts" afterDir="false" />
     </list>
@@ -93,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603537968268</updated>
-      <workItem from="1603537969598" duration="4776000" />
+      <workItem from="1603537969598" duration="4999000" />
     </task>
     <task id="LOCAL-00001" summary="Add &quot;1&quot; for 1">
       <created>1603540238293</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603542088293</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add recursive function for fizzbuzz">
+      <created>1603543239061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603543239061</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +165,8 @@
     <MESSAGE value="Add for loop for Fizz" />
     <MESSAGE value="Passing test for 4" />
     <MESSAGE value="Passing test for FizzBuzz, Fizz and Buzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passing test for FizzBuzz, Fizz and Buzz" />
+    <MESSAGE value="Add recursive function for fizzbuzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add recursive function for fizzbuzz" />
   </component>
   <component name="WindowStateProjectService">
     <state x="483" y="160" key="#xdebugger.evaluate" timestamp="1603542788348">
@@ -173,22 +181,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="526" y="155" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603539509403" />
-    <state width="1419" height="432" key="GridCell.Tab.0.bottom" timestamp="1603543202031">
+    <state width="1419" height="295" key="GridCell.Tab.0.bottom" timestamp="1603543489809">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="432" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603543202031" />
-    <state width="1419" height="432" key="GridCell.Tab.0.center" timestamp="1603543202030">
+    <state width="1419" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603543489809" />
+    <state width="1419" height="295" key="GridCell.Tab.0.center" timestamp="1603543489807">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="432" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603543202030" />
-    <state width="1419" height="432" key="GridCell.Tab.0.left" timestamp="1603543202029">
+    <state width="1419" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603543489807" />
+    <state width="1419" height="295" key="GridCell.Tab.0.left" timestamp="1603543489806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="432" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603543202029" />
-    <state width="1419" height="432" key="GridCell.Tab.0.right" timestamp="1603543202030">
+    <state width="1419" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603543489806" />
+    <state width="1419" height="295" key="GridCell.Tab.0.right" timestamp="1603543489808">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="432" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603543202030" />
+    <state width="1419" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603543489808" />
     <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1603542805130">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -237,10 +245,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="304" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1603542805132" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603542090071">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603543240680">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603542090071" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603543240680" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603540053543">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
