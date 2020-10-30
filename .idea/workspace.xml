@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6db2b50-31ac-444a-8350-862173a0ab0b" name="Default Changelist" comment="Add linting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c6db2b50-31ac-444a-8350-862173a0ab0b" name="Default Changelist" comment="Change recursive function to map.">
       <change beforePath="$PROJECT_DIR$/src/fizzbuzz.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +125,7 @@
       <updated>1603537968268</updated>
       <workItem from="1603537969598" duration="4999000" />
       <workItem from="1604000625666" duration="510000" />
-      <workItem from="1604001159226" duration="2243000" />
+      <workItem from="1604001159226" duration="2284000" />
     </task>
     <task id="LOCAL-00001" summary="Add &quot;1&quot; for 1">
       <created>1603540238293</created>
@@ -191,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604042806894</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Change recursive function to map.">
+      <created>1604043733021</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604043733021</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +226,8 @@
     <MESSAGE value="Add recursive function for fizzbuzz" />
     <MESSAGE value="Add eslint" />
     <MESSAGE value="Add linting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add linting" />
+    <MESSAGE value="Change recursive function to map." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change recursive function to map." />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1090" y="-96" key="#ESLint" timestamp="1604001079992">
@@ -247,25 +254,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="526" y="155" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603539509403" />
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom" timestamp="1604043695067">
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom" timestamp="1604043710269">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043695067" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043710269" />
     <state width="1419" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603543489809" />
-    <state width="1920" height="321" key="GridCell.Tab.0.center" timestamp="1604043695065">
+    <state width="1920" height="321" key="GridCell.Tab.0.center" timestamp="1604043710267">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.center/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043695065" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043710267" />
     <state width="1419" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603543489807" />
-    <state width="1920" height="321" key="GridCell.Tab.0.left" timestamp="1604043695064">
+    <state width="1920" height="321" key="GridCell.Tab.0.left" timestamp="1604043710266">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.left/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043695064" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043710266" />
     <state width="1419" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603543489806" />
-    <state width="1920" height="321" key="GridCell.Tab.0.right" timestamp="1604043695066">
+    <state width="1920" height="321" key="GridCell.Tab.0.right" timestamp="1604043710268">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.right/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043695066" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043710268" />
     <state width="1419" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603543489808" />
     <state width="1920" height="395" key="GridCell.Tab.1.bottom" timestamp="1604043229089">
       <screen x="-1920" y="-535" width="1920" height="1080" />
@@ -331,10 +338,10 @@
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
     <state x="-1451" y="-356" key="SettingsEditor/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604001631537" />
-    <state x="-1493" y="-307" key="Vcs.Push.Dialog.v2" timestamp="1604042807731">
+    <state x="-1493" y="-307" key="Vcs.Push.Dialog.v2" timestamp="1604043733968">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state x="-1493" y="-307" key="Vcs.Push.Dialog.v2/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604042807731" />
+    <state x="-1493" y="-307" key="Vcs.Push.Dialog.v2/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043733968" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603543240680" />
     <state x="-1407" y="-300" width="894" height="812" key="search.everywhere.popup" timestamp="1604000652594">
       <screen x="-1920" y="-535" width="1920" height="1080" />
