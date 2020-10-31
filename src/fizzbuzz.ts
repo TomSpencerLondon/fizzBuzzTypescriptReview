@@ -9,15 +9,16 @@ export const fizzbuzz = (number: number): string[] => {
   const array = Array.from(Array(number + 1).keys());
 
   const result = array.filter(Number).map((n) => {
-    if (isDivisibleByThreeAndFive(n)) {
-      return "FizzBuzz";
-    } else if (isDivisibleBy(5, n)) {
-      return "Buzz";
-    } else if (isDivisibleBy(3, n)) {
-      return "Fizz";
-    } else {
-      return n.toString();
+    let output = '';
+    if (isDivisibleBy(3, n)) {
+      output += 'Fizz';
     }
+
+    if (isDivisibleBy(5, n)){
+      output += 'Buzz';
+    }
+
+    return output || n.toString();
   });
 
   return result;
