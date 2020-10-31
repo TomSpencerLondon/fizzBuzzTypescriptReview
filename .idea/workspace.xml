@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6db2b50-31ac-444a-8350-862173a0ab0b" name="Default Changelist" comment="Add shorter OR operator shortcircuit expression">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c6db2b50-31ac-444a-8350-862173a0ab0b" name="Default Changelist" comment="Replace with single quotes">
       <change beforePath="$PROJECT_DIR$/src/fizzbuzz.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +126,7 @@
       <workItem from="1603537969598" duration="4999000" />
       <workItem from="1604000625666" duration="510000" />
       <workItem from="1604001159226" duration="2284000" />
-      <workItem from="1604146095703" duration="301000" />
+      <workItem from="1604146095703" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="Add &quot;1&quot; for 1">
       <created>1603540238293</created>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604043733021</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Replace with single quotes">
+      <created>1604146450209</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604146450209</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +236,8 @@
     <MESSAGE value="Add linting" />
     <MESSAGE value="Change recursive function to map." />
     <MESSAGE value="Add shorter OR operator shortcircuit expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add shorter OR operator shortcircuit expression" />
+    <MESSAGE value="Replace with single quotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace with single quotes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1090" y="-96" key="#ESLint" timestamp="1604001079992">
@@ -257,25 +264,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="526" y="155" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603539509403" />
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom" timestamp="1604146388980">
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom" timestamp="1604146429373">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146388980" />
+    <state width="1920" height="321" key="GridCell.Tab.0.bottom/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146429373" />
     <state width="1419" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603543489809" />
-    <state width="1920" height="321" key="GridCell.Tab.0.center" timestamp="1604146388979">
+    <state width="1920" height="321" key="GridCell.Tab.0.center" timestamp="1604146429372">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.center/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146388979" />
+    <state width="1920" height="321" key="GridCell.Tab.0.center/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146429372" />
     <state width="1419" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603543489807" />
-    <state width="1920" height="321" key="GridCell.Tab.0.left" timestamp="1604146388978">
+    <state width="1920" height="321" key="GridCell.Tab.0.left" timestamp="1604146429371">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.left/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146388978" />
+    <state width="1920" height="321" key="GridCell.Tab.0.left/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146429371" />
     <state width="1419" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603543489806" />
-    <state width="1920" height="321" key="GridCell.Tab.0.right" timestamp="1604146388979">
+    <state width="1920" height="321" key="GridCell.Tab.0.right" timestamp="1604146429373">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.right/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146388979" />
+    <state width="1920" height="321" key="GridCell.Tab.0.right/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146429373" />
     <state width="1419" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603543489808" />
     <state width="1920" height="395" key="GridCell.Tab.1.bottom" timestamp="1604043229089">
       <screen x="-1920" y="-535" width="1920" height="1080" />
@@ -341,10 +348,10 @@
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
     <state x="-1451" y="-356" key="SettingsEditor/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604001631537" />
-    <state x="-1493" y="-307" key="Vcs.Push.Dialog.v2" timestamp="1604043733968">
+    <state x="-1493" y="-307" key="Vcs.Push.Dialog.v2" timestamp="1604146451124">
       <screen x="-1920" y="-535" width="1920" height="1080" />
     </state>
-    <state x="-1493" y="-307" key="Vcs.Push.Dialog.v2/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604043733968" />
+    <state x="-1493" y="-307" key="Vcs.Push.Dialog.v2/-1920.-535.1920.1080/0.0.1792.1120@-1920.-535.1920.1080" timestamp="1604146451124" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603543240680" />
     <state x="-1407" y="-300" width="894" height="812" key="search.everywhere.popup" timestamp="1604000652594">
       <screen x="-1920" y="-535" width="1920" height="1080" />

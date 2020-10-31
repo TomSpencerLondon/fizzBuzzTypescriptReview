@@ -1,7 +1,4 @@
 export const fizzbuzz = (number: number): string[] => {
-  function isDivisibleByThreeAndFive(count: number): boolean {
-    return count % 3 === 0 && count % 5 === 0;
-  }
   function isDivisibleBy(input: number, count: number): boolean {
     return count % input == 0;
   }
